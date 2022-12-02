@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 import classes from './NavBar.module.css'
 
 const NavBar = () => {
@@ -8,12 +8,12 @@ const NavBar = () => {
         <nav>
             <ul>
                 <li>
-                    <NavLink activeClassName={classes.active} to='/Welcome'>
+                    <NavLink activeclassname={classes.active} to='/Welcome'>
                         Welcome
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink activeClassName={classes.active} to='/Product'>
+                    <NavLink activeclassname={classes.active} to='/Product'>
                         Product
                     </NavLink>
                 </li>

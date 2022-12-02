@@ -3,6 +3,7 @@ import Product from './Pages/Product';
 import Welcome from './Pages/Welcome';
 import './App.css'
 import NavBar from './Component/NavBar';
+import ProductDetails from './Pages/ProductDetails';
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Routes> 
       <Route path='Welcome' element={<Welcome />} />
       <Route path='Product' element={<Product />} />
+      <Route path='ProductDetails/:ProductId' element={<ProductDetails />} />
+      
+     
       </Routes> 
     </>
   );
